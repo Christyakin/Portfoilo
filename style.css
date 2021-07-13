@@ -1,8 +1,8 @@
 body{
-    background-image:url("https://imgur.com/KW8d9M4.jpg");
-    margin:0px;
-    padding:0px;
-    border:10px;
+  background-image:url("https://imgur.com/KW8d9M4.jpg");
+  margin:0px;
+  padding:0px;
+  border:10px;
   transition: background 0.2s linear;
 }
 .navbar{
