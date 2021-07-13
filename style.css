@@ -1,44 +1,47 @@
 body{
   background-image:url("https://imgur.com/KW8d9M4.jpg");
-  margin:50px;
-  padding:30px;
-  border:50px;
+  margin:0px;
+  padding:0px;
+  border:10px;
 transition: background 0.2s linear;
 }
+.navbar{
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+margin:7px;
+padding:25px;
+border:1px;
+}
+.brand-title{
+font-size: 1.5rem;
+margin: .5rem;
+}
+.navbar-links ul{
+marging:0;
+padding:0;
+display: flex;
+}
+.navbar-links li{
+list-style: none;
+}
+.navbar-links li a{
+text-decoration: none;
+color: white;
+padding: 1rem;
+display: block;
+}
+.navbar-links li:hover{
+background-color:#555;
+}
 div{
-  display:flex;
+display:flex;
 justify-content: flex-end;
 align-items: center;
 height: 9vh;
 margin: 0;
-}
-div.scrollmenu {
-  display: flex;
-  justify-content: flex-end;
-      align-items: flex-end;
-background-color: #333;
-overflow: auto;
-white-space: nowrap;
-  height:50px;
-  width: 360px;
-  margin: 10px;
-  border:0;
-  border-radius: 8%;
-  padding: 1.9px;
-  
-}
-
-div.scrollmenu a {
-display: inline-block;
-color: white;
-justify-content: flex-end;
-text-align: flex-end;
-padding: 14px;
-text-decoration: none;
-}
-
-div.scrollmenu a:hover {
-background-color: #777;
 }
 img{
   margin: 5px;
@@ -50,18 +53,15 @@ border-radius:90%;
   width:1.8in;
 }
 h1{
-background-color:gray;
-  margin: 20px;
-  padding: 5.1px;
-  border: 3px;
-  width: 150px;
+  color: black;
+  background-image: url("https://imgur.com/YMdcLnC.jpg");
+  margin:.5px;
+  padding:90px;
+  border:90px;
 }
 p{
-  color: black;
-  background-color: gray;
-  margin:.5px;
-  padding:10px;
-  border:20px;
+background-color: #666;
+
 }
 body.dark{
 background-image: url("https://imgur.com/Ma487QA.jpg");
@@ -90,6 +90,9 @@ color:#666;
 }
 .fa-sun{
 color: #FFCC33;
+}
+.fa-laugh{
+  color: #ffcc00;
 }
 *{
 box-sizing: border-box;
