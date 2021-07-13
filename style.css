@@ -105,3 +105,20 @@ label{
   transition: transform 0.2s linear;
   
 }
+p{
+  color: #c0c0c0;
+  padding:5px;
+}
+.fa-laugh{
+  color: #ffd700;
+  background: #fff;
+}
+
+li{
+  color: #c0c0c0;
+  padding: .8px;
+}
+.Quote{
+  color: #c0c0c0;
+  padding:5px;
+}
