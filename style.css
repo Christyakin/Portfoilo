@@ -6,119 +6,102 @@ body{
   transition: background 0.2s linear;
 }
 .navbar{
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  margin:7px;
-  padding:25px;
-  border:1px;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+margin:7px;
+padding:25px;
+border:1px;
 }
 .brand-title{
-  font-size: 1.5rem;
-  margin: .5rem;
+font-size: 1.5rem;
+margin: .5rem;
 }
 .navbar-links ul{
-  margin:0;
-  padding:0;
-  display: flex;
+margin:0;
+padding:0;
+display: flex;
 }
 .navbar-links li{
-  list-style: none;
+list-style: none;
 }
 .navbar-links li a{
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-  display: block;
+text-decoration: none;
+color: white;
+padding: 1rem;
+display: block;
 }
 .navbar-links li:hover{
-  background-color:#555;
+background-color:#555;
 }
 div{
-  display:flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 9vh;
-  margin: 0;
+display:flex;
+justify-content: flex-end;
+align-items: center;
+height: 9vh;
+margin: 0;
 }
 img{
-    margin: 5px;
-    padding: 2.5px;
-    border:solid;
-	border-radius:90%;
-    border-color: black;
-    height:3in;
-    width:1.8in;
+  margin: 5px;
+  padding: 2.5px;
+  border:solid;
+border-radius:90%;
+  border-color: black;
+  height:3in;
+  width:1.8in;
 }
 h1{
-    color: black;
-    background-image: url("https://imgur.com/WlNahzo.jpg");
-    margin:.5px;
-    padding:90px;
-    border:90px;
+  color: black;
+  background-image: url("https://imgur.com/WlNahzo.jpg");
+  margin:.5px;
+  padding:90px;
+  border:90px;
 }
 p{
-  background-color: #666;
-  
+background-color: #666;
+
 }
 body.dark{
-  background-image: url("https://imgur.com/Ma487QA.jpg");
+background-image: url("https://imgur.com/Ma487QA.jpg");
 }
 .checkbox{
-  opacity:0;
-  position: absolute;
+opacity:0;
+position: absolute;
 }
 .checkbox:checked+ .label .ball{
-  transform: translateX(24px);
+transform: translateX(24px);
 }
 label{
-    background-color:#111;
-    display:flex;
-  align-items:center;
-  justify-content: space-between;
-  position: relative;
-    border-radius:50px;
-  padding:.6px;
-    height: 20px;
-    width: 41px;
-  transform: scale(1.5);
+  background-color:#111;
+  display:flex;
+align-items:center;
+justify-content: space-between;
+position: relative;
+  border-radius:50px;
+padding:.6px;
+  height: 20px;
+  width: 41px;
+transform: scale(1.5);
 }
 .fa-moon{
-  color:#666;
+color:#666;
 }
 .fa-sun{
-  color: #FFCC33;
+color: #FFCC33;
 }
 *{
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 .ball{
-  background-color: #ffffff;
-  border-radius: 50%;
-  position: absolute;
-  top:2px;
-  left:2px;
-  height: 16px;
-  width: 15.5px;
-  transition: transform 0.2s linear;
-  
-}
-p{
-  color: #c0c0c0;
-  padding:5px;
-}
-.fa-laugh{
-  color: #ffd700;
-  background: #fff;
-}
+background-color: #ffffff;
+border-radius: 50%;
+position: absolute;
+top:2px;
+left:2px;
+height: 16px;
+width: 15.5px;
+transition: transform 0.2s linear;
 
-li{
-  color: #c0c0c0;
-  padding: .8px;
-}
-.Quote{
-  color: #c0c0c0;
-  padding:5px;
 }
