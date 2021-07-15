@@ -50,6 +50,12 @@ body{
     text-decoration-line: underline overline;
     text-decoration-color: MidnightBlue;
   }
+  h2{
+    color: black;
+  }
+  ul{
+    color: black;
+  }
    body.dark{
     background-image: radial-gradient(circle, gray, darkslategray, slategray);
    }
