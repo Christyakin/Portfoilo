@@ -52,9 +52,13 @@ body{
   }
   h2{
     color: black;
+    text-decoration-line: underline overline;
+    text-decoration-color: MidnightBlue;
   }
   ul{
     color: black;
+    text-decoration-line: underline overline;
+    text-decoration-color: MidnightBlue;
   }
    body.dark{
     background-image: radial-gradient(circle, gray, darkslategray, slategray);
