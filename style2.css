@@ -6,12 +6,18 @@ body{
     transition: background 0.2s linear;
   }
   img{
-     margin: 8px;
-     padding: 2.5px;
-     border-radius:50%;
-     height:6in;
-     width:3in;
-  }
+    margin: 8px;
+    padding: 2.5px;
+    border-radius:60%;
+   border: solid;
+    height:3.5in;
+    width:2.5in;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .center{
+   display: block;
+ }
   .navbar{
     color: #fff;
     display: flex;
