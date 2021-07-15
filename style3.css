@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: radial-gradient(circle, cadetblue, SteelBlue, silver);
     margin:0px;
@@ -44,7 +47,7 @@ body{
     margin: 0;
   }
   h1{
-    margin: 50px;
+    margin: 28px;
     padding: 30px;
     border: 20px;
     text-decoration-line: underline overline;
