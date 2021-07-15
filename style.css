@@ -5,38 +5,56 @@ body{
   border:10px;
   transition: background 0.2s linear;
 }
+.brand-title{
+font-size: 1.5rem;
+margin: .5rem;
+}
 .navbar{
 color: #fff;
 display: flex;
 justify-content: space-between;
 align-items: center;
 background-color: #333;
-margin:7px;
-padding:25px;
+margin:5px;
+padding:11px;
 border:1px;
-}
-.brand-title{
-font-size: 1.5rem;
-margin: .5rem;
 }
 .navbar-links ul{
 margin:0;
 padding:0;
 display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+margin:7px;
+padding:10px;
+border:1px;
 }
 .navbar-links li{
-list-style: none;
+list-style: none; 
+justify-content: space-between;
+align-items: center;
+background-color: #333;
 }
 .navbar-links li a{
 text-decoration: none;
 color: white;
 padding: 1rem;
-display: block;
 }
 .navbar-links li:hover{
 background-color:#555;
+justify-content: space-between;
+align-items: center;
+padding:12px;
 }
-div{
+.navbar-links{
+ display:flex;
+justify-content: flex-end;
+ height: 9vh;
+margin: 0;
+align-items: center;
+}
+.toggle-btn{
 display:flex;
 justify-content: flex-end;
 align-items: center;
@@ -56,12 +74,11 @@ h1{
   color: black;
   background-image: url("https://imgur.com/WlNahzo.jpg");
   margin:.5px;
-  padding:90px;
+  padding:40px;
   border:90px;
 }
 p{
 background-color: #666;
-
 }
 body.dark{
 background-image: url("https://imgur.com/Ma487QA.jpg");
@@ -73,7 +90,7 @@ position: absolute;
 .checkbox:checked+ .label .ball{
 transform: translateX(24px);
 }
-label{
+.label1{
   background-color:#111;
   display:flex;
 align-items:center;
@@ -102,6 +119,30 @@ top:2px;
 left:2px;
 height: 16px;
 width: 15.5px;
-transition: transform 0.2s linear;
+transition: transform 0.2s linear; 
+}
+.text-container{
+background-image: url("https://imgur.com/WlNahzo.jpg");
+display: flex;
+padding: 60px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top:75px;
+}
 
+.contBtn{
+margin: 5px;
+padding:5px;
+margin-left: auto;
+
+}
+.cont-form{
+display:grid;
+}
+.emailInput{
+margin:5px;
+}
+.messageInput{
+margin:5px;
+display: inherit;
 }

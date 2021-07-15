@@ -1,131 +1,93 @@
 body{
-    background-image:url("https://imgur.com/KW8d9M4.jpg");
-    margin:0px;
-    padding:0px;
-    border:10px;
-    transition: background 0.2s linear;
-  }
-  img{
-    margin: 8px;
-    padding: 2.5px;
-    border-radius:60%;
-   border: solid;
-    height:3.5in;
-    width:2.5in;
-   margin-left: auto;
-   margin-right: auto;
+  background-image:url("https://imgur.com/KW8d9M4.jpg");
+  margin:0px;
+  padding:50px;
+  border:60px;
+transition: background 0.2s linear;
+}
+img{
+   margin: 8px;
+   padding: 2.5px;
+   border-radius:60%;
+  border: solid;
+   height:3.5in;
+   width:2.5in;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center{
+  display: block;
+}
+h1{
+    color: black;
+    background-image:url("https://imgur.com/7DITLXH.jpg");
+    margin:.10px;
+    padding:40px;
+    border:50px;
+    height: 700px;
  }
- .center{
-   display: block;
- }
-  .navbar{
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    margin:7px;
-    padding:25px;
-    border:1px;
+p{
+    color: #c0c0c0;
+    padding:5px;
   }
-  .brand-title{
-    font-size: 1.5rem;
-    margin: .5rem;
+.fa-laugh{
+    color: #ffd700;
+    background: #666;
   }
-  .navbar-links ul{
-    margin:0;
-    padding:0;
-    display: flex;
+  
+li{
+    color: #c0c0c0;
+    padding: .8px;
   }
-  .navbar-links li{
-    list-style: none;
+.Quote{
+    color: #c0c0c0;
+    padding:5px;
   }
-  .navbar-links li a{
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    display: block;
-  }
-  .navbar-links li:hover{
-    background-color:#555;
-  }
-  div{
+div{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 9vh;
+  margin: 0;
+}
+body.dark{
+  background-image: url("https://imgur.com/Ma487QA.jpg");
+}
+.checkbox{
+  opacity:0;
+  position: absolute;
+}
+.checkbox:checked+ .label .ball{
+  transform: translateX(24px);
+}
+label{
+    background-color:#111;
     display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 9vh;
-    margin: 0;
-  }
-  h1{
-      color: black;
-      background-image:url("https://imgur.com/7DITLXH.jpg");
-      margin:.10px;
-      padding:40px;
-      border:50px;
-      height: 700px;
-    }
-  p{
-      color: #c0c0c0;
-      padding:5px;
-    }
-  .fa-laugh{
-      color: #ffd700;
-      background: #666;
-    }
-    
-  li{
-      color: #c0c0c0;
-      padding: .8px;
-    }
-  .Quote{
-      color: #c0c0c0;
-      padding:5px;
-    }
-  div{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 9vh;
-    margin: 0;
-  }
-  body.dark{
-    background-image: url("https://imgur.com/Ma487QA.jpg");
-  }
-  .checkbox{
-    opacity:0;
-    position: absolute;
-  }
-  .checkbox:checked+ .label .ball{
-    transform: translateX(24px);
-  }
-  label{
-      background-color:#111;
-      display:flex;
-    align-items:center;
-    justify-content: space-between;
-    position: relative;
-      border-radius:50px;
-    padding:.6px;
-      height: 16px;
-      width: 40px;
-    transform: scale(1.5);
-  }
-  .fa-moon{
-    color:#666;
-  }
-  .fa-sun{
-    color: #FFCC33;
-  }
-  *{
-    box-sizing: border-box;
-  }
-  .ball{
-    background-color: #ffffff;
-    border-radius: 50%;
-    position: absolute;
-    top:2px;
-    left:2px;
-    height: 14px;
-    width: 15px;
-    transition: transform 0.2s linear;
-  }
+  align-items:center;
+  justify-content: space-between;
+  position: relative;
+    border-radius:50px;
+  padding:.6px;
+    height: 16px;
+    width: 40px;
+  transform: scale(1.5);
+}
+.fa-moon{
+  color:#666;
+}
+.fa-sun{
+  color: #FFCC33;
+}
+*{
+  box-sizing: border-box;
+}
+.ball{
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top:2px;
+  left:2px;
+  height: 14px;
+  width: 15px;
+  transition: transform 0.2s linear;
+}
