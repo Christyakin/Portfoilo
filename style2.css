@@ -3,7 +3,7 @@ body{
   margin:0px;
   padding:50px;
   border:60px;
-transition: margin-right 0.2s linear;
+  transition: background 0.2s linear;
 }
 img{
    margin: 8px;
