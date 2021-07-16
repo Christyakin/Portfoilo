@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-image: radial-gradient(circle, cadetblue, SteelBlue, silver);
     margin:0px;
